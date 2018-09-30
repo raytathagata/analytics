@@ -15,4 +15,4 @@ mtcars %>% group_by(am) %>% summarise (mean(mpg))
 mtcars %>% group_by( ) %>% summarise(mean( ))
 
 filter(mtcars, cyl==8)
-filter(mtcars, cyl<6 |)
+
